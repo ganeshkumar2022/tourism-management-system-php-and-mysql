@@ -1,0 +1,22 @@
+/* index.php starts    */
+a
+{
+text-decoration:none;
+color:white;
+}
+a:hover
+{
+text-decoration:none;
+color:white;
+}
+h3
+{
+color:blue;
+}
+.bgs
+{
+	background-image:url("images/tourism.jpg");
+
+	height:30vw;
+	width:100%;
+}

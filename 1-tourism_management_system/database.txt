@@ -1,0 +1,19 @@
+create database tourism;
+
+use tourism;
+
+create table enquiry(id int auto_increment primary key,name varchar(30),email varchar(30),mobileno varchar(20),description varchar(100));
+	
+create table users(id int auto_increment primary key,name varchar(30),email varchar(30),mobileno varchar(20),password varchar(30));
+
+create table admin(name varchar(20),password varchar(20));
+insert into admin values('admin','admin@123');
+
+create table tour(id int auto_increment primary key,
+package_name varchar(100),package_type varchar(100),package_location varchar(30),
+package_price varchar(30),package_image varchar(500));
+
+
+create table bookings(id int auto_increment primary key,username varchar(30),useremail varchar(30),
+package_name varchar(30),package_price varchar(30),from_date varchar(20),to_date varchar(20),booking_date varchar(30));
+
